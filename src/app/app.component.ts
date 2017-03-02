@@ -11,6 +11,7 @@ import { MipaginaPage } from '../pages/mipagina/mipagina';
 
 import { InicioPage } from '../pages/inicio/inicio';
 
+import { UbicacionPage } from '../pages/ubicacion/ubicacion';
 
 @Component({
   templateUrl: 'app.html'
@@ -33,7 +34,8 @@ export class MyApp {
       { title: 'Hello Ionic', component: HelloIonicPage },
       { title: 'My First List', component: ListPage },
       { title: 'Mi pagina', component: MipaginaPage },
-      { title: 'Inicio', component: InicioPage }
+      { title: 'Inicio', component: InicioPage},
+      { title: 'Ubicación', component: UbicacionPage }
 
     ];
   }

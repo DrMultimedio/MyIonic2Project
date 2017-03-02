@@ -1,20 +1,22 @@
 page-inicio {
 
 }
-ion-content{
-    background: url("../../../assets/img/cover.jpg");
+
+#landing{
+    background-color: lightblue;
+
 }
 
-#wrap{
+.wrap{
     background-color: rgba(140, 140, 140, 0.7);
-    margin: 2em;
-    height: 90%;
-    padding: 2em;
+    margin: 1.6%;
+    padding: 2%;
+    height: 98.4%;
     text-align: center; 
 }
 #logo_rise{
-    margin-top: 20%;
-    margin-bottom: 30%;
+    margin-top: 1,6%;
+    margin-bottom: 10em;
 
 }
 #boton_entrar{

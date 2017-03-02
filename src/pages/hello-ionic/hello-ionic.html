@@ -3,26 +3,40 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Hello Ionic</ion-title>
+    <ion-title>Inicio</ion-title>
   </ion-navbar>
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding id='principal'>
 
-  <h3>Welcome to your first Ionic app!</h3>
-
-  <p>
-    This starter project is our way of helping you get a functional app running in record time.
-  </p>
-  <p>
-    Follow along on the tutorial section of the Ionic docs!
-  </p>
-  
-    <p><button ion-button (click)="navigate()">text</button></p>
-
-  <p>
-    <button ion-button color="primary" menuToggle>Toggle Menu</button>
-  </p>
+  <div class="fhm_container">  
+      <div class="fhm_row">  
+          <a href="javascript:this.navCtrl.push(ubicacion);">
+            <div class="fhm_item fhm_item1">  
+                <span>Article</span>  
+            </div>
+          </a>
+          <div class="fhm_item fhm_item2">  
+              <span> Blog</span>  
+          </div>  
+      </div>  
+      <div class="fhm_row">  
+          <div class="fhm_item fhm_item3">  
+              <span> News</span>  
+          </div>  
+          <div class="fhm_item fhm_item4">  
+              <span>Video</span>  
+          </div>  
+      </div>  
+      <div class="fhm_row">  
+          <div class="fhm_item fhm_item5">  
+              <span>Job</span>  
+          </div>  
+          <div class="fhm_item fhm_item6">  
+              <span>Book</span>  
+          </div>  
+      </div>  
+  </div>  
 
 </ion-content>
