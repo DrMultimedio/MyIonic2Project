@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { MipaginaPage } from '../mipagina/mipagina';
+import { UbicacionPage } from '../pages/ubicacion/ubicacion';
 
 
 @Component({
@@ -15,10 +16,7 @@ export class HelloIonicPage {
 
 
   navigate(){
-    this.navCtrl.push(MipaginaPage,{
-        firstPassed: "value1",
-        secondPassed: "value2"
-    })
+  	alert("patatas con queso, pallaso");
 }
 
 }
