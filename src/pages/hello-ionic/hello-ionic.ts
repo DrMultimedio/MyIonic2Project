@@ -15,8 +15,5 @@ export class HelloIonicPage {
   }
 
 
-  navigate(){
-  	alert("patatas con queso, pallaso");
-}
 
 }
